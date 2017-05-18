@@ -158,9 +158,6 @@
 		<!--  we want resources/schema/xhtml/catalog-xhtml-1.0.xml etc -->
 		<resource>
 			<directory>src/catalog</directory>
-			<includes>
-				<include>**/*.xml</include>
-			</includes>
 		</resource>
 	</resources>
 	</build>	
@@ -218,7 +215,7 @@
 			</exclusions>
 			
 		</dependency>
-		
+
 	</dependencies>
 
 	<profiles> <!--  use -P eg mvn -Psign-artifacts  -->
